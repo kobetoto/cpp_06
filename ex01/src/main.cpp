@@ -6,7 +6,7 @@
 /*   By: thodavid <thodavid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/16 07:14:27 by thodavid          #+#    #+#             */
-/*   Updated: 2026/01/21 12:42:07 by thodavid         ###   ########.fr       */
+/*   Updated: 2026/01/22 09:12:55 by thodavid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int main(int ac, char **av)
 
   t_data *new_data_ptr = Serializer::deserialize(uint_ptr);
 
-  std::cout << "t_data *data: " << &data << '\n';
+  std::cout << "t_data data: " << data << '\n';
   std::cout << "t_data *new_data_ptr: " << new_data_ptr << '\n';
   std::cout << "uintptr *uint_p: " << uint_ptr << '\n'
             << '\n';
